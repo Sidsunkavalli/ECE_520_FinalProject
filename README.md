@@ -17,12 +17,13 @@
 
 **Software application used**:
 * AMD-Xilinx Vivado Design Suite
+* Xilinx Vitis 
 
 **Introduction**: Using the Traffic Generator IP to send data to the DDR memory of a Zybo Z7-10 board using direct memory access (DMA). There are two parts in the project; (i) hardware development, (ii) software development.
 
 **Hardware Development**:
 * Create a Vivado project and set the board part parameter to Zybo Z7-10.
-* Add the Traffic Generator IP repo in Vivado.
+* Add the Traffic Generator IP repo in the project and update the catalog.
 * Insert the ZYNQ Processing System, enable fabric inputs and  enable the high-performance AXI slave interface
 ![ZYNQ_Settings1](./img/ZYNQ_Settings1.png) 
 ![ZYNQ_Settings2](./img/ZYNQ_Settings2.png) 
